@@ -134,6 +134,28 @@ header{
     margin-right: 50px;
 }
 
+.address li::before{
+    content: '';
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    margin-right: 10px;
+    
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: contain;
+}
+
+.address li:nth-child(1):before{
+    background-image: url(../images/milo.png);
+}
+
+.address li:nth-child(2):before{
+    background-image: url(../images/phone.png);
+}
+
+
+
 .address a{
     color: var(--secondary-text-color);
     
@@ -218,6 +240,34 @@ display: flex;
 
 .advantages li:not(:last-child){
     margin-right: 30px;
+}
+
+.advantages li::before{
+    content: '';
+    display: block;
+    height: 120px;
+    width: 270px;
+    margin-bottom: 30px;
+
+    background-color: #F5F4FA;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.advantages li:nth-child(1):before{
+    background-image: url(../images/icon-1.png);
+}
+
+.advantages li:nth-child(2):before{
+    background-image: url(../images/icon-2.png);
+}
+
+.advantages li:nth-child(3):before{
+    background-image: url(../images/icon-3.png);
+}
+
+.advantages li:nth-child(4):before{
+    background-image: url(../images/icon-4.png);
 }
 
 .advantages h3{
