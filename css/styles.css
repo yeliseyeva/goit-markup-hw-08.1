@@ -139,7 +139,7 @@ header{
 .address a{
     color: var(--secondary-text-color);
     
-    display: block;
+    display: flex;
     padding: 32px 0px;
 }
 
@@ -148,6 +148,16 @@ header{
 .address a:hover,
 .address a:focus{
     color:var(--accent-text-color) ;
+}
+
+.icon-milo{
+    width:16px;
+    height:12px;
+}
+
+.icon-phone{
+    width:10px;
+    height:16px;
 }
 
 .icon-contacts{
