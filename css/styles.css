@@ -605,8 +605,13 @@ footer li:not(:last-child) {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
-
     letter-spacing: 0.03em;
+
+    border: none;
+    border-radius: 4px;
+    padding: 6px 22px;
+    cursor: pointer;
+
 }
 
 .filter-conteiner li:not(:last-child){
