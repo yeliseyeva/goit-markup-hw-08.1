@@ -128,37 +128,19 @@ header{
     margin-top: 0;
     margin-bottom: 0;
     margin-left: auto;
+    align-items: center;
 }
 
 .address li:not(:last-child){
     margin-right: 50px;
 }
 
-.address li::before{
-    content: '';
-    display: inline-block;
-    height: 16px;
-    width: 16px;
-    margin-right: 10px;
-    
-    background-repeat: no-repeat;
-    background-position:center;
-    background-size: contain;
-}
-
-.address li:nth-child(1):before{
-    background-image: url(../images/milo.png);
-}
-
-.address li:nth-child(2):before{
-    background-image: url(../images/phone.png);
-}
-
-
 
 .address a{
     color: var(--secondary-text-color);
     
+    display: block;
+    padding: 32px 0px;
 }
 
 .nav a:hover,
@@ -166,6 +148,14 @@ header{
 .address a:hover,
 .address a:focus{
     color:var(--accent-text-color) ;
+}
+
+.icon-contacts{
+    fill: currentColor;
+
+    margin-right: 10px;
+    height: 16px;
+    width: 16px;
 }
 
 /* Герой */
@@ -242,32 +232,13 @@ display: flex;
     margin-right: 30px;
 }
 
-.advantages li::before{
-    content: '';
+.advantages li{
     display: block;
     height: 120px;
     width: 270px;
     margin-bottom: 30px;
 
     background-color: #F5F4FA;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.advantages li:nth-child(1):before{
-    background-image: url(../images/icon-1.png);
-}
-
-.advantages li:nth-child(2):before{
-    background-image: url(../images/icon-2.png);
-}
-
-.advantages li:nth-child(3):before{
-    background-image: url(../images/icon-3.png);
-}
-
-.advantages li:nth-child(4):before{
-    background-image: url(../images/icon-4.png);
 }
 
 .advantages h3{
