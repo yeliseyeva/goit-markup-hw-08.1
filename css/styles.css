@@ -455,32 +455,32 @@ display: flex;
 }
 
 .client-1{
-    widht:44.27px;
+    width:44.27px;
     height:49.23px;
 }
 
 .client-2{
-    widht:40px;
+    width:40px;
     height:52px;
 }
 
 .client-3{
-    widht:41px;
+    width:41px;
     height:42.6px;
 }
 
 .client-4{
-    widht:79.66px;
+    width:79.66px;
     height:42.02px;
 }
 
 .client-5{
-    widht:59px;
+    width:59px;
     height:47px;
 }
 
 .client-6{
-    widht:88.48px;
+    width:88.48px;
     height:45.44px;
 }
 
@@ -503,6 +503,7 @@ footer{
 
 .footer-conteiner{
     display: flex;
+    align-items: baseline;
 }
 
 .address-footer{
