@@ -659,6 +659,7 @@ footer li:not(:last-child) {
     display: flex;
     margin-top: 20px;
     margin-left: 24px;
+    margin-right: 24px;
     margin-bottom: 4px;
 }
 
@@ -669,5 +670,6 @@ footer li:not(:last-child) {
     letter-spacing: 0.03em;
 
     margin-left: 24px;
+    margin-right: 24px;
     margin-bottom: 20px;
 }
