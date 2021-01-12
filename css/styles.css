@@ -168,6 +168,15 @@ header{
     width: 16px;
 }
 
+/* Секции */
+
+.description-page{
+    padding-top: 94px;
+    padding-bottom: 94px;
+
+    background-color: #fff;
+}
+
 /* Герой */
 .hero{
     height: 600px;
@@ -247,11 +256,6 @@ header{
 display: flex;
 }
 
-.advantages-conteiner{
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
-
 .advantages li:not(:last-child){
     margin-right: 30px;
 }
@@ -284,12 +288,6 @@ display: flex;
     margin-bottom: 50px;
 }
 
-
-.description-page{
-    
-
-    background-color: #fff;
-}
 .description-page  h3{
     font-weight: 700;
     font-size: 14px;
@@ -304,7 +302,7 @@ display: flex;
     letter-spacing: 0.03em;
 }
 
-.description-page ul, p {
+.description-page p {
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -324,11 +322,6 @@ display: flex;
     margin-right: 0px;
 }
 
-.box-img{
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
-
 /* Наша команда */
 
 .workers{
@@ -341,13 +334,9 @@ display: flex;
     letter-spacing: 0.03em;
 }
 
-.workers .conteiner{
-    padding-top: 94px;
-}
 
 .workers ul{
     display: flex;
-    padding-bottom: 94px;
 }
 
 .workers .workers-name{
@@ -414,11 +403,6 @@ display: flex;
 
 .clients-conteiner h2{
     margin-bottom: 50px;
-}
-
-.clients-conteiner{
-    padding-top: 94px;
-    padding-bottom: 94px;
 }
 
 .clients{
@@ -500,6 +484,9 @@ footer{
     line-height: 1.71;
 
     letter-spacing: 0.03em;
+
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .footer-conteiner{
@@ -538,11 +525,6 @@ footer address{
 
 footer li:not(:last-child) {
     margin-bottom: 9px;
-}
-
-.footer-conteiner{
-    padding-top: 60px;
-    padding-bottom: 60px;
 }
 
 /* Присоединяйтесь */
@@ -589,15 +571,10 @@ footer li:not(:last-child) {
 
 /* Портфолио */
 
-.portfolio-conteiner{
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
-
 .filter-conteiner{
     display: flex;
     justify-content: center;
-    margin-bottom: 56px;
+    margin-bottom: 50px;
 }
 
 .filter{
