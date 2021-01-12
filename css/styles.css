@@ -44,7 +44,6 @@ img {
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
-    outline: 2px solid tomato;
 }
 
 .accent{
@@ -91,6 +90,7 @@ header{
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    border-bottom: solid 1px rgba(236,236,236,1);
 }
 
 .header .conteiner{
@@ -652,6 +652,10 @@ footer li:not(:last-child) {
     margin-bottom: 0px;
 }
 
+.projects-name{
+    padding: 20px 24px;
+}
+
 .projects b{
     font-weight: 700;
     font-size: 18px;
@@ -659,9 +663,6 @@ footer li:not(:last-child) {
     letter-spacing: 0.06em;
 
     display: flex;
-    margin-top: 20px;
-    margin-left: 24px;
-    margin-right: 24px;
     margin-bottom: 4px;
 }
 
@@ -670,8 +671,4 @@ footer li:not(:last-child) {
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
-
-    margin-left: 24px;
-    margin-right: 24px;
-    margin-bottom: 20px;
 }
