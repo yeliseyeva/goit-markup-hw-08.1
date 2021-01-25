@@ -741,11 +741,13 @@ transform: translate(-50%, -50%) scale(0.5);
 
 .form-icon{
     position: absolute;
-    top: 0;
+    bottom: 0;
     left: 12px;
 
     width: 18px;
     height: 18px;
+
+    transform: translateY(-50%);
 
     /* transform:translateY(-50%) ; */
 }
