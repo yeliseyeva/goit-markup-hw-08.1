@@ -692,6 +692,11 @@ footer li:not(:last-child) {
     background-color: #fff;
 }
 
+.modal .close:focus,
+.modal .close:hover{
+    color: var(--accent-text-color);
+}
+
 .backdrop.is-hidden .modal{
 transform: translate(-50%, -50%) scale(0.5);
 
