@@ -637,6 +637,68 @@ footer li:not(:last-child) {
     fill: currentColor;
 }
 
+/* Футер форма */
+
+.footer-form{
+    margin-left: auto;
+
+}
+
+.footer-form label{
+    display: block;
+
+    margin-bottom: 20px;
+
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.footer-form input{
+    padding: 16px 15px;
+    margin-right: 12px;
+
+    font-size: 16px;
+
+    background-color: #2F303A;
+    width: 358px;
+    height: 50px;
+
+    outline: none;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.footer-form input:focus{
+    color: #fff;
+}
+
+.footer-form button{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 200px;
+    height: 50px;
+    padding: 10px 29px;
+
+    font-size: 16px;
+    font-weight: 700;
+
+    background-color: var(--accent-text-color);
+    border:  1px solid var(--accent-text-color) ;
+    color: #fff;
+    outline: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.icon-send{
+    margin-left: 10px;
+    width: 24px;
+    height: 24px;
+}
+
 /* Модальное окно */
 
 .backdrop{
@@ -738,6 +800,8 @@ transform: translate(-50%, -50%) scale(0.5);
     padding-left: 42px;
 
     border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    cursor: pointer;
 }
 
 .form-field input:focus{
@@ -753,8 +817,6 @@ transform: translate(-50%, -50%) scale(0.5);
     height: 18px;
 
     transform: translateY(-50%);
-
-    /* transform:translateY(-50%) ; */
 }
 
 .form-field:focus-within > .form-icon{
@@ -777,11 +839,13 @@ transform: translate(-50%, -50%) scale(0.5);
 
     padding: 12px 16px;
     border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    cursor: pointer;
 }
 .textarea::placeholder{
     
 
-    font-size: 14pz;
+    font-size: 14px;
 
     color: rgba(117, 117, 117, 0.5);
 }
@@ -795,6 +859,7 @@ transform: translate(-50%, -50%) scale(0.5);
     align-items: center;
     
     margin-bottom: 30px;
+    cursor: pointer;
 }
 
 .checkbox{
@@ -811,6 +876,7 @@ transform: translate(-50%, -50%) scale(0.5);
 
     border: 2px solid #212121;
     border-radius: 2px;
+    
 }
 
 .checkbox:checked + .icon-check{
@@ -819,6 +885,13 @@ transform: translate(-50%, -50%) scale(0.5);
     background-image: url('../images/form-check.svg');
     background-size: contain;
     background-origin: border-box;
+}
+
+.policy a{
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+
+    color: var(--accent-text-color);
 }
 
 .form-button{
