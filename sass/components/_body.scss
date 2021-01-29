@@ -74,3 +74,13 @@ h2{
 .title{
     margin-bottom: 50px;
 }
+
+b{
+    color: $primary-text-color;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
